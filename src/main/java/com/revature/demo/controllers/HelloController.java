@@ -15,4 +15,9 @@ public class HelloController {
     public String froot() {
         return "Living life Dulce Vida";
     }
+
+    @GetMapping("/froot2")
+    public String froot2() {
+        return "Couldn't get any Sweeter";
+    }
 }
